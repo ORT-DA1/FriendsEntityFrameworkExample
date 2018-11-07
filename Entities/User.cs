@@ -16,5 +16,7 @@ namespace Entities
         //public Guid IdAgenda;
 
         //public Guid IdOwnedAgenda;
+
+        public virtual ICollection<Agenda> Agendas { get; set; }
     }
 }
